@@ -7,7 +7,7 @@ public class Auto {
 	Asiento asientos[];
 	String marca;
 	Motor motor;
-	static int registro;
+	int registro;
 	static int cantidadCreados;
 	
 	//Metodos
@@ -26,7 +26,7 @@ public class Auto {
 	String verificarIntegridad() {
 		String cadena;
 		
-		if (Auto.registro != Asiento.registro || Auto.registro != Motor.registro || Asiento.registro != Motor.registro) {
+		if (this.registro != asientos[0].registro || this.registro != motor.registro || asientos[0].registro != motor.registro) {
 			cadena = "Las piezas no son originales";
 		}
 		

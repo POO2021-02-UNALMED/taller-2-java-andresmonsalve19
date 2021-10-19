@@ -4,11 +4,11 @@ public class Motor {
 	//Atributos
 	int numeroCilindros;
 	String tipo;
-	static int registro;
+	int registro;
 	
 	//Metodos:
 	void cambiarRegistro(int registro) {
-		Motor.registro = registro;
+		this.registro = registro;
 	}
 	
 	void asignarTipo(String tipo) {

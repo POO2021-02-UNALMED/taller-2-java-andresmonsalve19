@@ -4,9 +4,9 @@ public class Asiento {
 	//Atributos
 	String color;
 	int precio;
-	static int registro;
+	int registro;
 	
-	//Métodos
+	//Metodos
 	void cambiarColor(String color) {
 		String colores[] = {"rojo", "verde", "amarillo", "negro", "blanco"}; 
 		
