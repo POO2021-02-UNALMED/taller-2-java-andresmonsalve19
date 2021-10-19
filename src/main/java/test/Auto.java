@@ -29,8 +29,9 @@ public class Auto {
 		if (this.registro != asientos[0].registro || this.registro != motor.registro || asientos[0].registro != motor.registro) {
 			cadena = "Las piezas no son originales";
 		}
-		
-		cadena = "Auto original";
+		else {
+			cadena = "Auto original";
+		}
 		
 		return cadena;
 	}
